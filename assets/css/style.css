@@ -12,7 +12,14 @@ html {
     min-height: 100%;
 }
 
+a{
+    color: #080753;
+}
 
+.badge-primary {
+    color: #fff;
+    background-color: #16293d;
+}
 
 .navbar{
     padding: 0;
@@ -32,16 +39,32 @@ html {
     font-weight: bold;
 }
 
+#aboutMeLink{
+    float: right;
+}
+.resume-header{
+    height: 250px;
+}
+
+.content_headline{
+    padding-left: 20px;
+}
+
+.list{
+    list-style:circle;
+    margin-left: 30px;
+}
+
 #content-container{
     background-color: white;
     padding: 20px;
-    margin: 10px auto 30px auto;
+    margin: 10px auto 0 auto;
 }
 
 .profile_img{
     float: left;
     padding: 0 15px 15px 0;
-    width: 226px;
+    width: 200px;
     height: auto;
 }
 
@@ -76,11 +99,23 @@ footer {
 .h3, h3{
     font-size: 1em;
 }
-.item_header {
+.item_1 {
     position: relative;
     size: 24px;
 	top: -60px;
 	text-align: center;
+	background-color: #4aaaa5;
+	padding: 1em;
+	color: #ffffff;
+	z-index: 0;
+}
+
+.item_2 {
+    position: relative;
+    size: 24px;
+	top: -60px;
+    text-align: center;
+    width: 200px;
 	background-color: #4aaaa5;
 	padding: 1em;
 	color: #ffffff;
@@ -94,15 +129,9 @@ footer {
     width: 960px;
 
 }
+
 }
 
-@media screen and (max-width: 768px) {
-
-    #protfolio_section{
-        width: 90%;
-        padding: 0 3%;
-    }
-}
 
 @media screen and (max-width: 640px) {
 
@@ -110,7 +139,7 @@ footer {
     .profile_img{
         float: left;
         padding: 0 5% 10px 5%;
-        width: 100%;
+        width: 40%;
         height: auto;
     }
 
@@ -135,3 +164,7 @@ footer {
     }
 
 }
+
+
+
+
